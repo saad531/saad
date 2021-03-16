@@ -1,0 +1,71 @@
+
+/*Basic Settings*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: black;
+  color: white;
+
+  overflow-x: hidden;
+}
+
+.company-logo {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+.company-logo img {
+  width: 100px;
+}
+
+.company-logo span {
+  position: relative;
+  top: -45px;
+  font-size: 18px;
+  left: -5px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -100px;
+}
+
+header nav ul li{
+  margin: 25px 10px 0;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: .2s ease-out;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+}
+
+.hero {
+  font-size: 55px;
+  font-family: 'Montserrat';
+}
+
+.about {
+  font-size: 18px;
+  font-family: 'Raleway';
+}
+
+header nav ul li a:hover {
+  color: gold;
+}
